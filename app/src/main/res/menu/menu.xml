@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ADMIN"
+        android:orderInCategory="100"
+        android:title="ADMIN"
+        android:icon="@drawable/ic_round_account_circle_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ABOUT"
+        android:orderInCategory="100"
+        android:title="ABOUT"
+        android:icon="@drawable/ic_baseline_info_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/SETTINGS"
+        android:orderInCategory="100"
+        android:title="SETTINGS"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="never"/>
+
+
+
+</menu>

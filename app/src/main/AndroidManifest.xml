@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.event">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Event">
+        <activity
+            android:name=".AddSemi"
+            android:exported="false" />
+        <activity
+            android:name=".AddCuri"
+            android:exported="false" />
+        <activity
+            android:name=".AddCult"
+            android:exported="false" />
+        <activity
+            android:name=".AddSpo"
+            android:exported="false" />
+        <activity
+            android:name=".Adminpanel"
+            android:exported="false"
+            android:label="@string/title_activity_adminpanel"
+            android:theme="@style/Theme.Event.NoActionBar" />
+        <activity
+            android:name=".admin"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Seminar"
+            android:exported="false" />
+        <activity
+            android:name=".Curricular"
+            android:exported="false" />
+        <activity
+            android:name=".Cultural"
+            android:exported="false" />
+        <activity
+            android:name=".Sports"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
